@@ -1,4 +1,7 @@
 {
+    "arth/http_log_bundle": {
+        "version": "dev-master"
+    },
     "composer/package-versions-deprecated": {
         "version": "1.x-dev"
     },

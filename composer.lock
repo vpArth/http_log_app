@@ -4,17 +4,24 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "81dc6f88c2e0ef11012204d024bd8766",
+    "content-hash": "72f62e76a37e7f9f359aeb99a8b11be8",
     "packages": [
         {
             "name": "arth/http_log_bundle",
             "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vpArth-php/http_log_bundle.git",
+                "reference": "59a93b2975372c3d65a53c40b192302f35ab34e6"
+            },
             "dist": {
-                "type": "path",
-                "url": "../http_log_bundle",
-                "reference": "27fe0c385a6e1f665d40e9be59cc880bde0563e8"
+                "type": "zip",
+                "url": "https://api.github.com/repos/vpArth-php/http_log_bundle/zipball/59a93b2975372c3d65a53c40b192302f35ab34e6",
+                "reference": "59a93b2975372c3d65a53c40b192302f35ab34e6",
+                "shasum": ""
             },
             "require": {
+                "ext-json": "*",
                 "php": ">=7.2.5",
                 "symfony/config": "^4.4|^5.0",
                 "symfony/framework-bundle": "^5.0",
@@ -25,7 +32,6 @@
                 "twig/twig": "^2.13|^3.0.4"
             },
             "require-dev": {
-                "ext-json": "*",
                 "phpunit/phpunit": "8.5.x-dev",
                 "roave/security-advisories": "dev-master",
                 "symfony/browser-kit": "^4.4|^5.0",
@@ -41,13 +47,9 @@
                     "/Tests/"
                 ]
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "Tests\\": "Tests"
-                }
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "proprietary"
+                "MIT"
             ],
             "authors": [
                 {
@@ -56,9 +58,7 @@
                 }
             ],
             "description": "Provides ability to log http requests and response(Test Task)",
-            "transport-options": {
-                "relative": true
-            }
+            "time": "2021-03-17T16:51:25+00:00"
         },
         {
             "name": "composer/package-versions-deprecated",
@@ -4928,6 +4928,10 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "composer/package-versions-deprecated": 20,
+        "doctrine/doctrine-bundle": 20,
+        "doctrine/doctrine-migrations-bundle": 20,
+        "doctrine/orm": 20,
         "roave/security-advisories": 20
     },
     "prefer-stable": false,

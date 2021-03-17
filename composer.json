@@ -4,12 +4,6 @@
     "license": "proprietary",
     "description": "Demo of arth/http_log_bundle (Test Task)",
     "minimum-stability": "dev",
-    "repositories": [
-        {
-            "type": "path",
-            "url": "../http_log_bundle"
-        }
-    ],
     "require": {
         "php": ">=7.2.5",
         "ext-ctype": "*",
