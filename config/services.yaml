@@ -29,3 +29,10 @@ services:
 
     # add more service definitions when explicit configuration is needed
     # please note that last definitions always *replace* previous ones
+
+    UmaTech\HttpLogBundle\Service\PersisterInterface:
+        class: App\Repository\HttpLogEntryRepository
+
+    UmaTech\HttpLogBundle\Service\HttpRecordRepositoryInterface:
+        class: App\Repository\HttpLogEntryRepository
+
