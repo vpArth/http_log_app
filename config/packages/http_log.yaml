@@ -1,0 +1,4 @@
+http_log:
+  enabled: true
+  kind: get
+  name: _log
